@@ -29,7 +29,6 @@ public class OderResource {
 	public ResponseEntity<Order> findById(@PathVariable Long id){
 		Order obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
-		
 	}
 
 }
